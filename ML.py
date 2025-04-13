@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score,ConfusionMatrixDisplay, RocCurveDisplay
 
-ds=pd.read_csv("C:/Users/SAI VENKAT TEJA S/Desktop/sem 4/introduction to machine learning/ML PAPER/indian_liver_patient.csv")
+ds=pd.read_csv("indian_liver_patient.csv")
 print(ds.head())
 print(ds.info())
 
